@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#header {
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  /* background: url(src/cat5.jpg); */
+  /* background-size: -160%; */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+#header section {
+  position: absolute;
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+  background-size: 160%;
+}
+#header section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#header section h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 25vw;
+  text-align: center;
+  font-weight: 800;
+  line-height: 0.85em;
+  color: snow;
+  background: black;
+  mix-blend-mode: multiply;
+}
+#header section h2 span {
+  top: 5px;
+  font-size: 0.4em;
+  line-height: 0.85em;
+}
+section {
+  padding: 100px;
+  color: coral;
+}
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+section p {
+  font-size: 1.2rem;
+}
